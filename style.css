@@ -122,6 +122,9 @@ h1 {
 }
 
 @media (width < 576px) {
+  body {
+    background-size: 125% 125%;
+  }
   .my__header .nav-link:not([href^="tel:"]) {
     /* cursor: auto; */
     display: none;
