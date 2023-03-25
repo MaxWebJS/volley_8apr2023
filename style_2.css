@@ -88,8 +88,8 @@ h1 {
     top: 5vh;
   }
 }
-@media (min-width: 846px) {
-  li.teams {
+@media (min-width: 992px) {
+  .my__header .nav-item:nth-child(3) {
     display: none !important;
     color: black;
   }
