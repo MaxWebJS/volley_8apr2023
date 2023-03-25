@@ -55,7 +55,8 @@ h1 {
   }
 }
 @media (min-width: 846px) {
-  .teams {
+  li.teams {
     display: none !important;
+    color: black;
   }
 }
