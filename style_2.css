@@ -7,6 +7,15 @@
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: rotate(45deg);
 }
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar-nav a {
+  padding: 0.5rem !important;
+}
 
 body {
   color: white;
