@@ -4,3 +4,8 @@
   padding: 1rem;
   padding-inline: 2rem;
 }
+.tel {
+  background: hsl(40 100% 47%);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
