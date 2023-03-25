@@ -1,0 +1,61 @@
+body {
+  color: white;
+  min-height: 100vh;
+  background: hsl(40 100% 47%);
+  background-image: linear-gradient(hsl(240 100% 8% / 1), hsl(240 100% 8% / 1));
+}
+p {
+  margin-bottom: 0.5rem;
+}
+.my__header {
+  background: hsl(40 100% 50%);
+  /* align-items: center; */
+}
+.my__header--logo img {
+  /* background-image: url(./img/V200W.webp); */
+  /* background-image: url(./img/ballon-volley-ball_78370-346.avif); */
+  width: 3rem;
+}
+.bg--sky {
+  background: url(./img/bg_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  /* text-shadow: 0px 1px hsl(0 50% 0% / 0.6); */
+  text-shadow: 1px 2px hsl(0 50% 0% / 0.5);
+  font-size: calc(2rem + 2vw);
+  font-weight: 700;
+  font-family: "Comfortaa", cursive;
+  /* font-family: "Playfair Display", serif; */
+}
+.bg--dark {
+  position: absolute;
+  background: hsl(0 50% 0% / 0.3);
+  /* width: 100%;
+  height: 100%; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.bg--dark ~ * {
+  position: relative;
+}
+.my__position-relative {
+  top: 10vh;
+}
+.bg--sky {
+  max-width: 846px;
+}
+@media (max-width: 846px) {
+  .my__sections:nth-child(3) {
+    display: none;
+  }
+}
+@media (min-width: 846px) {
+  .teams {
+    display: none !important;
+  }
+}

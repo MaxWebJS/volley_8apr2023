@@ -1,0 +1,6 @@
+.my__sections {
+  max-width: max-content;
+  margin: auto;
+  padding: 1rem;
+  padding-inline: 2rem;
+}
