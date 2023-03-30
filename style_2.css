@@ -17,6 +17,27 @@
   padding: 0.5rem !important;
 }
 
+/* .my__sections::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: -3px;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  box-shadow: 0 0 0 20px #070c23;
+  z-index: -1;
+}
+.my__sections::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: -3px;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  z-index: -1;
+  filter: blur(20px);
+} */
+
 body {
   color: white;
   min-height: 100vh;
